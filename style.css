@@ -1,0 +1,62 @@
+*{
+    padding:0%;
+    margin:0%;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-image:url(Arena\ Corinthians.jpg);
+
+
+}
+button{
+    width: 50%;
+    height: 3em;
+    border-radius: 0.5;
+    background-color: black;
+    color: white;
+    border: none;
+    text-align: center; 
+    justify-content:center;
+}
+h1{
+    margin: 5em;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Botão{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+ /* Responsivo para tablets */
+ @media (min-width: 600px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    button {
+        width: auto;
+    }
+}
+
+/* Responsivo para desktops */
+@media (min-width: 768px) {
+    .content {
+        width: 80%;
+    }
+}
